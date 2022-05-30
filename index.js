@@ -5,7 +5,7 @@
 // import dotenv from 'dotenv';
 // dotenv.config();
 
-import { getMentions, getOnlyRepliedMentions, getTweet, replyMentionedTweets } from './lib/twiter.js';
+import { getMentions, getOnlyRepliedMentions, getTweet, replyMentionedTweets } from './lib/twitter.js';
 
 // let username = 'decodeprasant';
 // let userid = '1247490702931456001';
