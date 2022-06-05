@@ -11,9 +11,9 @@ import fs from 'fs';
 // 1200 x 630
 let tweetQuote = await drawTweetQuoteCanvas(1200, 630, {
   // text: 'Lorem, ipsum dolor sit amet a.',
-  text: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab accusantium nobis odit impedit nostrum distinctio adipisci? Aliquid perspiciatis dolor inventore!`,
+  text: `Lorem, ipsum dolor sit amet a. Lorem, ipsum dolor sit amet a. Lorem, ipsum dolor sit amet a. Lorem, ipsum dolor sit amet a. Lorem, ipsum dolor sit amet a. `,
   name: "Prasant kumar",
-  username: 'prasant123whatevern2',
+  username: 'prasant',
   pfp: 'https://cdn.discordapp.com/avatars/800445583046213663/027359d038895040a33236d17596d98f.png?size=4096',
   followers: "-2.3 M",
   followings: "+254",
