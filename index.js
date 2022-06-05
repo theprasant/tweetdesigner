@@ -15,6 +15,7 @@ let lastMentionDetectionTime = new Date().toISOString();
 // let lastMentionDetectionTime = new Date(2022, 4, 27).toISOString();
 
 let mentionDetectionInterval = setInterval(async () => {
+  return;
   try {
     // console.log(lastMentionDetectionTime);
     let allMentions = await getMentions(userid, lastMentionDetectionTime);
