@@ -16,10 +16,9 @@ let lastMentionDetectionTime = new Date().toISOString();
 
 let mentionDetectionInterval = setInterval(async () => {
   try {
-    return;
     // console.log(lastMentionDetectionTime);
     let allMentions = await getMentions(userid, lastMentionDetectionTime);
-    // return console.log(allMentions);
+    // console.log(allMentions);
     let mentionsInReply = await getOnlyRepliedMentions(allMentions.data, username);
     if(mentionsInReply && mentionsInReply.length) console.log(mentionsInReply);
     // mentionsInReply.forEach(mention => {
