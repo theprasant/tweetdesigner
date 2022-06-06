@@ -5,13 +5,13 @@ import { fileURLToPath } from 'url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
-// let tweet = await getTweet('1532700291325431809');
-// console.log(JSON.stringify(tweet, null, 2));
+let tweet = await getTweet('1533496300393619458');
+console.log(JSON.stringify(tweet, null, 2));
 import fs from 'fs';
 // 1200 x 630
 let tweetQuote = await drawTweetQuoteCanvas(1200, 630, {
   // text: 'Lorem, ipsum dolor sit amet a.',
-  text: ` 🤣 While Elon Musk lays off 10 percent of Tesla employees, he's set to take home $23 billion bonus. Yes, $23 billion. The economy is somehow always great for billionaires, bad for workers.`,
+  text: tweet.full_text,
   name: "Prasant kumar",
   username: 'prasant',
   pfp: 'https://cdn.discordapp.com/avatars/830530156048285716/7650d0c9ae84e6b11edc43028b90e392.png?size=2048',
