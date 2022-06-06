@@ -11,10 +11,10 @@ import fs from 'fs';
 // 1200 x 630
 let tweetQuote = await drawTweetQuoteCanvas(1200, 630, {
   // text: 'Lorem, ipsum dolor sit amet a.',
-  text: `Lorem, ipsum dolor sit amet a. Lorem, ipsum dolor sit amet a. Lorem, ipsum dolor sit amet a. Lorem, ipsum dolor sit amet a. Lorem, ipsum dolor sit amet a. `,
+  text: ` 🤣 While Elon Musk lays off 10 percent of Tesla employees, he's set to take home $23 billion bonus. Yes, $23 billion. The economy is somehow always great for billionaires, bad for workers.`,
   name: "Prasant kumar",
   username: 'prasant',
-  pfp: 'https://cdn.discordapp.com/avatars/800445583046213663/027359d038895040a33236d17596d98f.png?size=4096',
+  pfp: 'https://cdn.discordapp.com/avatars/830530156048285716/7650d0c9ae84e6b11edc43028b90e392.png?size=2048',
   followers: "-2.3 M",
   followings: "+254",
   fontArr: [path.join(__dirname, './assets/fonts/Baloo_Bhaijaan_2/BalooBhaijaan2-VariableFont_wght.ttf')],
