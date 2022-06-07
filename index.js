@@ -5,13 +5,13 @@
 // import dotenv from 'dotenv';
 // dotenv.config();
 // var http = require('http');
-import http from 'http';
+// import http from 'http';
 
 //create a server object:
-http.createServer(function (req, res) {
-  res.write('Hello World!'); //write a response to the client
-  res.end(); //end the response
-}).listen(process.env.PORT || 8080); //the server object listens on port 8080
+// http.createServer(function (req, res) {
+//   res.write('Hello World!'); //write a response to the client
+//   res.end(); //end the response
+// }).listen(process.env.PORT || 8080); //the server object listens on port 8080
 
 import { getMentions, getOnlyRepliedMentions, getTweet, replyMentionedTweets } from './lib/twitter.js';
 
