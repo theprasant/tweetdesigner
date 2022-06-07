@@ -9,8 +9,8 @@ let emoReg = /[🇦|🇧|🇨|🇩|🇪|🇫|🇬|🇭|🇮|🇯|🇰|🇱|🇲|
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
-let tweet = await getTweet('1534231418930446337');
-console.log(JSON.stringify(tweet, null, 2));
+let tweet = await getTweet('1534198095386447874');
+// console.log(JSON.stringify(tweet, null, 2));
 import fs from 'fs';
 
 const randWIth5 = (c) => {
