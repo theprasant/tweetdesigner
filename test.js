@@ -9,7 +9,7 @@ let emoReg = /[🇦|🇧|🇨|🇩|🇪|🇫|🇬|🇭|🇮|🇯|🇰|🇱|🇲|
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
-let tweet = await getTweet('1534198095386447874');
+let tweet = await getTweet('1534207341326848000');
 // console.log(JSON.stringify(tweet, null, 2));
 import fs from 'fs';
 
