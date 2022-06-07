@@ -9,7 +9,7 @@ let emoReg = /[🇦|🇧|🇨|🇩|🇪|🇫|🇬|🇭|🇮|🇯|🇰|🇱|🇲|
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
-let tweet = await getTweet('1534207341326848000');
+let tweet = await getTweet('1534193211316502529');
 // console.log(JSON.stringify(tweet, null, 2));
 import fs from 'fs';
 
@@ -26,7 +26,7 @@ let tweetQuote = await drawTweetQuoteCanvas(1200, 630, {
   // text: 'Lorem, ipsum dolor sit amet a.',
   // text: 'صباح الخير',
   // text: randWIth5(295),
-  text: tweet.full_text/*.replace(emoReg, emoreplacer)*/,
+  text: tweet.full_text.replace(/^(@\w+\s)+/, ''),
   name: tweet.user.name/*.replace(emoReg, emoreplacer)*/,
   username: 'prasant',
   pfp: 'https://cdn.discordapp.com/avatars/830530156048285716/7650d0c9ae84e6b11edc43028b90e392.png?size=2048',
